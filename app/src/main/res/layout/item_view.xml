@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="#03A9F4"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_view"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="#E42121"
+        tools:text = "name"
+     />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_view"
+        android:textColor="@color/black"
+
+
+        android:layout_below="@id/name_view"
+        tools:text="pwd"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fn_view"
+        android:layout_below="@id/password_view"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="#E1E113"
+        tools:text = "full name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dob_view"
+        android:textColor="@color/black"
+        android:layout_below="@id/fn_view"
+        tools:text="dob"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/interes_view"
+        android:textColor="@color/black"
+
+        android:background="#00FF00"
+        android:layout_below="@id/dob_view"
+        tools:text="hobby"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/interes_view"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:outlineAmbientShadowColor="@color/material_dynamic_neutral_variant70"
+
+        />
+
+
+    
+</RelativeLayout>
